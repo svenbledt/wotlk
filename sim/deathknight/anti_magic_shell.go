@@ -3,9 +3,9 @@ package deathknight
 import (
 	"time"
 
-	"github.com/wowsims/wotlk/sim/core/proto"
+	"github.com/svenbledt/wotlk/sim/core/proto"
 
-	"github.com/wowsims/wotlk/sim/core"
+	"github.com/svenbledt/wotlk/sim/core"
 )
 
 func (dk *Deathknight) registerAntiMagicShellSpell() {

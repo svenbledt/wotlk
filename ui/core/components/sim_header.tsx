@@ -171,7 +171,7 @@ export class SimHeader extends Component {
 
 	private addBugReportLink() {
 		this.addToolbarLink({
-			href: 'https://github.com/wowsims/wotlk/issues/new/choose',
+			href: 'https://github.com/svenbledt/wotlk/issues/new/choose',
 			parent: this.simToolbar,
 			icon: 'fas fa-bug fa-lg',
 			tooltip: 'Report a bug or<br>Request a feature',
@@ -179,7 +179,7 @@ export class SimHeader extends Component {
 	}
 
 	private addDownloadBinaryLink() {
-		const href = 'https://github.com/wowsims/wotlk/releases';
+		const href = 'https://github.com/svenbledt/wotlk/releases';
 		const icon = 'fas fa-gauge-high fa-lg';
 		const parent = this.simToolbar;
 

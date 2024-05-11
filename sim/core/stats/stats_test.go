@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/wowsims/wotlk/sim/core/proto"
+	"github.com/svenbledt/wotlk/sim/core/proto"
 )
 
 func TestStatsAdd(t *testing.T) {

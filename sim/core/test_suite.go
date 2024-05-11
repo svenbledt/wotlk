@@ -8,8 +8,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/wowsims/wotlk/sim/core/proto"
-	"github.com/wowsims/wotlk/sim/core/stats"
+	"github.com/svenbledt/wotlk/sim/core/proto"
+	"github.com/svenbledt/wotlk/sim/core/stats"
 	"google.golang.org/protobuf/encoding/prototext"
 )
 

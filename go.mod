@@ -1,4 +1,4 @@
-module github.com/wowsims/wotlk
+module github.com/svenbledt/wotlk
 
 go 1.21
 

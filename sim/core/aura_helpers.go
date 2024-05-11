@@ -5,7 +5,7 @@ import (
 	"math"
 	"time"
 
-	"github.com/wowsims/wotlk/sim/core/stats"
+	"github.com/svenbledt/wotlk/sim/core/stats"
 )
 
 type AuraCallback uint16

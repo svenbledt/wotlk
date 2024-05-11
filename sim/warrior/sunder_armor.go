@@ -1,8 +1,8 @@
 package warrior
 
 import (
-	"github.com/wowsims/wotlk/sim/core"
-	"github.com/wowsims/wotlk/sim/core/proto"
+	"github.com/svenbledt/wotlk/sim/core"
+	"github.com/svenbledt/wotlk/sim/core/proto"
 )
 
 // TODO: GlyphOfSunderArmor will require refactoring this a bit

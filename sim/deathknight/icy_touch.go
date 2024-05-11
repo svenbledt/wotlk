@@ -1,7 +1,7 @@
 package deathknight
 
 import (
-	"github.com/wowsims/wotlk/sim/core"
+	"github.com/svenbledt/wotlk/sim/core"
 )
 
 var IcyTouchActionID = core.ActionID{SpellID: 59131}

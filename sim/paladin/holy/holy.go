@@ -1,9 +1,9 @@
 package holy
 
 import (
-	"github.com/wowsims/wotlk/sim/core"
-	"github.com/wowsims/wotlk/sim/core/proto"
-	"github.com/wowsims/wotlk/sim/paladin"
+	"github.com/svenbledt/wotlk/sim/core"
+	"github.com/svenbledt/wotlk/sim/core/proto"
+	"github.com/svenbledt/wotlk/sim/paladin"
 )
 
 func RegisterHolyPaladin() {

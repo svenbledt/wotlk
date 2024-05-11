@@ -3,7 +3,7 @@ package core
 import (
 	"time"
 
-	"github.com/wowsims/wotlk/sim/core/proto"
+	"github.com/svenbledt/wotlk/sim/core/proto"
 )
 
 type APLValueGCDIsReady struct {

@@ -3,7 +3,7 @@ package mage
 import (
 	"time"
 
-	"github.com/wowsims/wotlk/sim/core"
+	"github.com/svenbledt/wotlk/sim/core"
 )
 
 // If two spells proc Ignite at almost exactly the same time, the latter

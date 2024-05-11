@@ -1,7 +1,7 @@
 package druid
 
 import (
-	"github.com/wowsims/wotlk/sim/core"
+	"github.com/svenbledt/wotlk/sim/core"
 )
 
 // Returns the time to wait before the next action, or 0 if innervate is on CD

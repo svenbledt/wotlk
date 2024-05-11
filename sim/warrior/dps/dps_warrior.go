@@ -1,9 +1,9 @@
 package dps
 
 import (
-	"github.com/wowsims/wotlk/sim/core"
-	"github.com/wowsims/wotlk/sim/core/proto"
-	"github.com/wowsims/wotlk/sim/warrior"
+	"github.com/svenbledt/wotlk/sim/core"
+	"github.com/svenbledt/wotlk/sim/core/proto"
+	"github.com/svenbledt/wotlk/sim/warrior"
 )
 
 func RegisterDpsWarrior() {

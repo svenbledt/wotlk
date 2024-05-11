@@ -3,7 +3,7 @@ package shaman
 import (
 	"time"
 
-	"github.com/wowsims/wotlk/sim/core"
+	"github.com/svenbledt/wotlk/sim/core"
 )
 
 func (shaman *Shaman) registerSearingTotemSpell() {

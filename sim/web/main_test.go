@@ -10,9 +10,9 @@ import (
 	"testing"
 	"time"
 
-	_ "github.com/wowsims/wotlk/sim/common"
-	"github.com/wowsims/wotlk/sim/core"
-	"github.com/wowsims/wotlk/sim/core/proto"
+	_ "github.com/svenbledt/wotlk/sim/common"
+	"github.com/svenbledt/wotlk/sim/core"
+	"github.com/svenbledt/wotlk/sim/core/proto"
 	googleProto "google.golang.org/protobuf/proto"
 )
 

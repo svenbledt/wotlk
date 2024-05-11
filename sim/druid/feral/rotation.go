@@ -4,9 +4,9 @@ import (
 	"math"
 	"time"
 
-	"github.com/wowsims/wotlk/sim/core"
-	"github.com/wowsims/wotlk/sim/core/proto"
-	"github.com/wowsims/wotlk/sim/druid"
+	"github.com/svenbledt/wotlk/sim/core"
+	"github.com/svenbledt/wotlk/sim/core/proto"
+	"github.com/svenbledt/wotlk/sim/druid"
 )
 
 func (cat *FeralDruid) OnGCDReady(sim *core.Simulation) {

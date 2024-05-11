@@ -3,7 +3,7 @@ package wotlk
 import (
 	"time"
 
-	"github.com/wowsims/wotlk/sim/core"
+	"github.com/svenbledt/wotlk/sim/core"
 )
 
 type ProcDamageEffect struct {

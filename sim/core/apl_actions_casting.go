@@ -2,7 +2,7 @@ package core
 
 import (
 	"fmt"
-	"github.com/wowsims/wotlk/sim/core/proto"
+	"github.com/svenbledt/wotlk/sim/core/proto"
 )
 
 type APLActionCastSpell struct {

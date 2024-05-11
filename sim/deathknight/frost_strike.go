@@ -1,8 +1,8 @@
 package deathknight
 
 import (
-	"github.com/wowsims/wotlk/sim/core"
-	"github.com/wowsims/wotlk/sim/core/proto"
+	"github.com/svenbledt/wotlk/sim/core"
+	"github.com/svenbledt/wotlk/sim/core/proto"
 )
 
 var frostStrikeActionID = core.ActionID{SpellID: 55268}

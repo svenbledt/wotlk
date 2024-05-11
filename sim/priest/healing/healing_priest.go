@@ -1,9 +1,9 @@
 package healing
 
 import (
-	"github.com/wowsims/wotlk/sim/core"
-	"github.com/wowsims/wotlk/sim/core/proto"
-	"github.com/wowsims/wotlk/sim/priest"
+	"github.com/svenbledt/wotlk/sim/core"
+	"github.com/svenbledt/wotlk/sim/core/proto"
+	"github.com/svenbledt/wotlk/sim/priest"
 )
 
 func RegisterHealingPriest() {

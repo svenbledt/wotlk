@@ -1,8 +1,8 @@
 package deathknight
 
 import (
-	"github.com/wowsims/wotlk/sim/core"
-	"github.com/wowsims/wotlk/sim/core/stats"
+	"github.com/svenbledt/wotlk/sim/core"
+	"github.com/svenbledt/wotlk/sim/core/stats"
 )
 
 type BloodwormPet struct {

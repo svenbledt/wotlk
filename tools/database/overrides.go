@@ -3,8 +3,8 @@ package database
 import (
 	"regexp"
 
-	"github.com/wowsims/wotlk/sim/core/proto"
-	"github.com/wowsims/wotlk/sim/core/stats"
+	"github.com/svenbledt/wotlk/sim/core/proto"
+	"github.com/svenbledt/wotlk/sim/core/stats"
 )
 
 var OtherItemIdsToFetch = []string{

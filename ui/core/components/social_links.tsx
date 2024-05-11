@@ -8,7 +8,7 @@ export class SocialLinks extends Component {
 	static buildDiscordLink(): Element {
 		const anchor = (
 			<a
-				href="https://discord.gg/p3DgvmnDCS"
+				href="https://discord.gg/jREZFtCeak"
 				target="_blank"
 				className="discord-link link-alt"
 				dataset={{ bsToggle: 'tooltip', bsTitle: 'Join us on Discord' }}>
@@ -22,7 +22,7 @@ export class SocialLinks extends Component {
 	static buildGitHubLink(): Element {
 		const anchor = (
 			<a
-				href="https://github.com/wowsims/sod"
+				href="https://github.com/svenbledt/sod"
 				target="_blank"
 				className="github-link link-alt"
 				dataset={{ bsToggle: 'tooltip', bsTitle: 'Contribute on GitHub' }}>
@@ -36,7 +36,7 @@ export class SocialLinks extends Component {
 	static buildPatreonLink(): Element {
 		const anchor = (
 			<a
-				href="https://patreon.com/wowsims"
+				href="https://patreon.com/"
 				target="_blank"
 				className="patreon-link link-alt"
 				dataset={{ bsToggle: 'tooltip', bsTitle: 'Support us on Patreon' }}>

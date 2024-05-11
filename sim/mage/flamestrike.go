@@ -3,7 +3,7 @@ package mage
 import (
 	"time"
 
-	"github.com/wowsims/wotlk/sim/core"
+	"github.com/svenbledt/wotlk/sim/core"
 )
 
 func (mage *Mage) registerFlamestrikeSpell(rank8 bool) *core.Spell {

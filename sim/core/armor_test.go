@@ -3,7 +3,7 @@ package core
 import (
 	"testing"
 
-	"github.com/wowsims/wotlk/sim/core/stats"
+	"github.com/svenbledt/wotlk/sim/core/stats"
 )
 
 func TestSunderArmorStacks(t *testing.T) {

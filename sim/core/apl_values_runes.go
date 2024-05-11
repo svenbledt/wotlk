@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/wowsims/wotlk/sim/core/proto"
+	"github.com/svenbledt/wotlk/sim/core/proto"
 )
 
 type APLValueCurrentRuneCount struct {

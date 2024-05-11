@@ -21,10 +21,10 @@ import (
 
 	uuid "github.com/google/uuid"
 	"github.com/pkg/browser"
-	dist "github.com/wowsims/wotlk/binary_dist"
-	"github.com/wowsims/wotlk/sim"
-	"github.com/wowsims/wotlk/sim/core"
-	proto "github.com/wowsims/wotlk/sim/core/proto"
+	dist "github.com/svenbledt/wotlk/binary_dist"
+	"github.com/svenbledt/wotlk/sim"
+	"github.com/svenbledt/wotlk/sim/core"
+	proto "github.com/svenbledt/wotlk/sim/core/proto"
 
 	googleProto "google.golang.org/protobuf/proto"
 )
@@ -54,7 +54,7 @@ func main() {
 	fmt.Printf("Version: %s\n", Version)
 	if !*skipVersionCheck && Version != "development" {
 		go func() {
-			resp, err := http.Get("https://api.github.com/repos/wowsims/wotlk/releases/latest")
+			resp, err := http.Get("https://api.github.com/repos/svenbledt/wotlk/releases/latest")
 			if err != nil {
 				return
 			}

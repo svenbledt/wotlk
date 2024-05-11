@@ -547,7 +547,7 @@ export class IndividualAddonImporter<SpecType extends Spec> extends Importer {
 
 const throwCataError = () => {
 	throw new Error(`WowSims does not support the Cata Pre-patch.
-Please use: https://wowsims.github.io/cata/ instead`);
+Please use: https://svenbledt.github.io/cata/ instead`);
 };
 
 function glyphNameToID(glyphName: string, glyphsConfig: Record<number, GlyphConfig>): number {

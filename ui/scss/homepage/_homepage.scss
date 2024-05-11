@@ -32,12 +32,12 @@
 			.navbar-brand-container {
 				display: flex;
 
-				.wowsims-logo {
+				.rsasim-logo {
 					width: 6rem;
 					margin-right: map-get($spacers, 3);
 				}
 
-				.wowsims-title {
+				.rsasim-title {
 					@extend .display-1;
 					@extend .fw-bold;
 					color: $brand;
@@ -68,7 +68,7 @@
 			display: flex;
 			flex-direction: column;
 
-			.wowsims-info {
+			.rsasim-info {
 				@extend .fs-4;
 				width: 75%;
 				margin: 0;
@@ -118,7 +118,7 @@
 	#homepage {
 		.homepage-content-container {
 			.info-container {
-				.wowsims-info {
+				.rsasim-info {
 					width: 100%;
 				}
 			}
@@ -168,7 +168,7 @@
 					justify-content: space-between;
 					align-items: flex-end;
 
-					.wowsims-logo {
+					.rsasim-logo {
 						width: 48px;
 					}
 				}

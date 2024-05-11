@@ -3,7 +3,7 @@ package warlock
 import (
 	"time"
 
-	"github.com/wowsims/wotlk/sim/core"
+	"github.com/svenbledt/wotlk/sim/core"
 )
 
 func (warlock *Warlock) registerSeedSpell() {

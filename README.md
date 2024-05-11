@@ -1,23 +1,21 @@
-Welcome to the WoW WOTLK Classic simulator! If you have questions or are thinking about contributing, [join our discord](https://discord.gg/jJMPr9JWwx "https://discord.gg/jJMPr9JWwx") to chat!
+Welcome to the WoW WOTLK Classic simulator! If you have questions or are thinking about contributing, [join our discord](https://discord.gg/jREZFtCeak "https://discord.gg/jREZFtCeak") to chat!
 
 The primary goal of this project is to provide a framework that makes it easy to build a DPS sim for any class/spec, with a polished UI and accurate results. Each community will have ownership / responsibility over their portion of the sim, to ensure accuracy and that their community is represented. By having all the individual sims on the same engine, we can also have a combined 'raid sim' for testing raid compositions.
 
 This project is licensed with MIT license. We request that anyone using this software in their own project to make sure there is a user visible link back to the original project.
 
-[Live sims can be found here.](https://wowsims.github.io/wotlk "https://wowsims.github.io/wotlk")
-
-[Support our devs via Patreon.](https://www.patreon.com/wowsims)
+[Live sims can be found here.](https://svenbledt.github.io/wotlk "https://svenbledt.github.io/wotlk")
 
 # Downloading Sim
 
 Links for latest Sim build:
-- [Windows Sim](https://github.com/wowsims/wotlk/releases/latest/download/wowsimwotlk-windows.exe.zip)
-- [MacOS Sim](https://github.com/wowsims/wotlk/releases/latest/download/wowsimwotlk-amd64-darwin.zip)
-- [Linux Sim](https://github.com/wowsims/wotlk/releases/latest/download/wowsimwotlk-amd64-linux.zip)
+- [Windows Sim](https://github.com/svenbledt/wotlk/releases/latest/download/wowsimwotlk-windows.exe.zip)
+- [MacOS Sim](https://github.com/svenbledt/wotlk/releases/latest/download/wowsimwotlk-amd64-darwin.zip)
+- [Linux Sim](https://github.com/svenbledt/wotlk/releases/latest/download/wowsimwotlk-amd64-linux.zip)
 
 Then unzip the downloaded file, then open the unzipped file to open the sim in your browser!
 
-Alternatively, you can choose from a specific relase on the [Releases](https://github.com/wowsims/wotlk/releases) page and click the suitable link under "Assets"
+Alternatively, you can choose from a specific relase on the [Releases](https://github.com/svenbledt/wotlk/releases) page and click the suitable link under "Assets"
 # Local Dev Installation
 
 This project has dependencies on Go >=1.21, protobuf-compiler and the corresponding Go plugins, and node >= 14.0.
@@ -54,7 +52,7 @@ npm install
 ## Docker
 Alternatively, install Docker and your workflow will look something like this:
 ```sh
-git clone https://github.com/wowsims/wotlk.git
+git clone https://github.com/svenbledt/wotlk.git
 cd wotlk
 
 # Build the docker image and install npm dependencies (only need to run these once).
@@ -138,10 +136,20 @@ make items
 
 # Adding a Sim
 So you want to make a new sim for your class/spec! The basic steps are as follows:
- - [Create the proto interface between sim and UI.](#create-the-proto-interface-between-sim-and-ui)
- - [Implement the UI.](#implement-the-ui)
- - [Implement the sim.](#implement-the-sim)
- - [Launch the site.](#launch-the-site)
+- [Downloading Sim](#downloading-sim)
+- [Local Dev Installation](#local-dev-installation)
+  - [Ubuntu](#ubuntu)
+  - [Docker](#docker)
+  - [Windows](#windows)
+  - [Mac OS](#mac-os)
+- [Commands](#commands)
+- [Adding a Sim](#adding-a-sim)
+  - [Create the proto interface between Sim and UI](#create-the-proto-interface-between-sim-and-ui)
+  - [Implement the UI](#implement-the-ui)
+  - [Implement the Sim](#implement-the-sim)
+- [Launch the site](#launch-the-site)
+- [Add your spec to the raid sim](#add-your-spec-to-the-raid-sim)
+- [Deployment](#deployment)
 
 
 ## Create the proto interface between Sim and UI

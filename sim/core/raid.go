@@ -3,8 +3,8 @@ package core
 import (
 	"slices"
 
-	"github.com/wowsims/wotlk/sim/core/proto"
-	"github.com/wowsims/wotlk/sim/core/stats"
+	"github.com/svenbledt/wotlk/sim/core/proto"
+	"github.com/svenbledt/wotlk/sim/core/stats"
 	googleProto "google.golang.org/protobuf/proto"
 )
 
